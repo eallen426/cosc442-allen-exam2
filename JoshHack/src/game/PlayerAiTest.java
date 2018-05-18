@@ -6,19 +6,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>PlayerAiTest</code> contains tests for the class <code>{@link PlayerAi}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:31 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class PlayerAiTest {
+	
 	/**
 	 * Run the PlayerAi(Creature,List<String>,FieldOfView) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -39,8 +40,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -63,8 +63,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -87,8 +86,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -111,8 +109,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -135,8 +132,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -163,8 +159,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -191,8 +186,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onGainLevel() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -211,8 +205,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the void onNotify(String) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -232,8 +225,7 @@ public class PlayerAiTest {
 	/**
 	 * Run the Tile rememberedTile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test

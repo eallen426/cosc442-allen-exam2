@@ -5,19 +5,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>LineTest</code> contains tests for the class <code>{@link Line}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:30 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:30 AM
  */
 public class LineTest {
+	
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -29,8 +30,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -50,8 +50,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -71,8 +70,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -92,8 +90,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -113,8 +110,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -134,8 +130,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -155,8 +150,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -176,8 +170,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -197,8 +190,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -218,8 +210,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -239,8 +230,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -260,8 +250,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -281,8 +270,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -302,8 +290,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -323,8 +310,7 @@ public class LineTest {
 	/**
 	 * Run the Line(int,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -344,8 +330,7 @@ public class LineTest {
 	/**
 	 * Run the List<Point> getPoints() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -363,8 +348,7 @@ public class LineTest {
 	/**
 	 * Run the Iterator<Point> iterator() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test

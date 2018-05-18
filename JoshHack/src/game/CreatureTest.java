@@ -5,19 +5,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>CreatureTest</code> contains tests for the class <code>{@link Creature}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:28 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:28 AM
  */
 public class CreatureTest {
+	
 	/**
 	 * Run the Creature(World,char,Color,String,int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -42,8 +43,7 @@ public class CreatureTest {
 	/**
 	 * Run the Item armor() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -67,8 +67,7 @@ public class CreatureTest {
 	/**
 	 * Run the int attackValue() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -92,8 +91,7 @@ public class CreatureTest {
 	/**
 	 * Run the int attackValue() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -117,8 +115,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canEnter(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -145,8 +142,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canEnter(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -173,8 +169,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canEnter(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -201,8 +196,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -229,8 +223,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -257,8 +250,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -285,8 +277,7 @@ public class CreatureTest {
 	/**
 	 * Run the String causeOfDeath() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -310,8 +301,7 @@ public class CreatureTest {
 	/**
 	 * Run the Color color() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -335,8 +325,7 @@ public class CreatureTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -363,8 +352,7 @@ public class CreatureTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -391,8 +379,7 @@ public class CreatureTest {
 	/**
 	 * Run the int defenseValue() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -416,8 +403,7 @@ public class CreatureTest {
 	/**
 	 * Run the int defenseValue() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -441,8 +427,7 @@ public class CreatureTest {
 	/**
 	 * Run the String details() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -466,8 +451,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -491,8 +475,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -516,8 +499,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -541,8 +523,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(Item,String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -567,8 +548,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(Item,String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -593,8 +573,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(Item,String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -619,8 +598,7 @@ public class CreatureTest {
 	/**
 	 * Run the void doAction(Item,String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -645,8 +623,7 @@ public class CreatureTest {
 	/**
 	 * Run the void drop(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -670,8 +647,7 @@ public class CreatureTest {
 	/**
 	 * Run the List<Effect> effects() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -695,8 +671,7 @@ public class CreatureTest {
 	/**
 	 * Run the int food() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -720,8 +695,7 @@ public class CreatureTest {
 	/**
 	 * Run the void gainXp(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -745,8 +719,7 @@ public class CreatureTest {
 	/**
 	 * Run the void gainXp(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -770,8 +743,7 @@ public class CreatureTest {
 	/**
 	 * Run the char glyph() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -795,8 +767,7 @@ public class CreatureTest {
 	/**
 	 * Run the int hp() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -820,8 +791,7 @@ public class CreatureTest {
 	/**
 	 * Run the Inventory inventory() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -845,8 +815,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean isPlayer() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -870,8 +839,7 @@ public class CreatureTest {
 	/**
 	 * Run the boolean isPlayer() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -895,8 +863,7 @@ public class CreatureTest {
 	/**
 	 * Run the Item item(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -923,8 +890,7 @@ public class CreatureTest {
 	/**
 	 * Run the Item item(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -951,8 +917,7 @@ public class CreatureTest {
 	/**
 	 * Run the int level() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -976,8 +941,7 @@ public class CreatureTest {
 	/**
 	 * Run the int mana() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1001,8 +965,7 @@ public class CreatureTest {
 	/**
 	 * Run the int maxFood() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1026,8 +989,7 @@ public class CreatureTest {
 	/**
 	 * Run the int maxHp() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1051,8 +1013,7 @@ public class CreatureTest {
 	/**
 	 * Run the int maxMana() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1076,8 +1037,7 @@ public class CreatureTest {
 	/**
 	 * Run the void meleeAttack(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1101,8 +1061,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyAttackValue(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1126,8 +1085,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyDefenseValue(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1151,8 +1109,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyDetectCreatures(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1176,8 +1133,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyFood(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1201,8 +1157,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyMana(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1226,8 +1181,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyMaxHp(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1251,8 +1205,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyMaxMana(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1276,8 +1229,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyRegenHpPer1000(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1301,8 +1253,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyRegenManaPer1000(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1326,8 +1277,7 @@ public class CreatureTest {
 	/**
 	 * Run the void modifyVisionRadius(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1351,8 +1301,7 @@ public class CreatureTest {
 	/**
 	 * Run the void moveBy(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1378,8 +1327,7 @@ public class CreatureTest {
 	/**
 	 * Run the void moveBy(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1405,8 +1353,7 @@ public class CreatureTest {
 	/**
 	 * Run the void moveBy(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1432,8 +1379,7 @@ public class CreatureTest {
 	/**
 	 * Run the String name() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1457,8 +1403,7 @@ public class CreatureTest {
 	/**
 	 * Run the String nameOf(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1483,8 +1428,7 @@ public class CreatureTest {
 	/**
 	 * Run the void notify(String,Object[]) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1508,8 +1452,7 @@ public class CreatureTest {
 	/**
 	 * Run the Tile realTile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1536,8 +1479,7 @@ public class CreatureTest {
 	/**
 	 * Run the void setCreatureAi(CreatureAi) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1561,8 +1503,7 @@ public class CreatureTest {
 	/**
 	 * Run the void summon(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1586,8 +1527,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1615,8 +1555,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1644,8 +1583,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1673,8 +1611,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1702,8 +1639,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1731,8 +1667,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1760,8 +1695,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1789,8 +1723,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1818,8 +1751,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1847,8 +1779,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1876,8 +1807,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1905,8 +1835,7 @@ public class CreatureTest {
 	/**
 	 * Run the void throwItem(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1934,8 +1863,7 @@ public class CreatureTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1962,8 +1890,7 @@ public class CreatureTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -1990,8 +1917,7 @@ public class CreatureTest {
 	/**
 	 * Run the void update() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -2014,8 +1940,7 @@ public class CreatureTest {
 	/**
 	 * Run the int visionRadius() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -2039,8 +1964,7 @@ public class CreatureTest {
 	/**
 	 * Run the Item weapon() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test
@@ -2064,8 +1988,7 @@ public class CreatureTest {
 	/**
 	 * Run the int xp() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:28 AM
 	 */
 	@Test

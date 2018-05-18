@@ -4,19 +4,20 @@ import java.awt.Color;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>GoblinAiTest</code> contains tests for the class <code>{@link GoblinAi}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:30 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:30 AM
  */
 public class GoblinAiTest {
+	
 	/**
 	 * Run the GoblinAi(Creature,Creature) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -36,8 +37,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -56,8 +56,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -76,8 +75,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -96,8 +94,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -116,8 +113,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -136,8 +132,7 @@ public class GoblinAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test

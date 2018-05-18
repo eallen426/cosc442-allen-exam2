@@ -4,19 +4,20 @@ import java.awt.Color;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>CreatureAiTest</code> contains tests for the class <code>{@link CreatureAi}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:29 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:29 AM
  */
 public class CreatureAiTest {
+	
 	/**
 	 * Run the CreatureAi(Creature) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -35,8 +36,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canPickup() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -55,8 +55,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canPickup() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -75,8 +74,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canPickup() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -95,8 +93,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canRangedWeaponAttack(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -119,8 +116,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canRangedWeaponAttack(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -140,8 +136,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canRangedWeaponAttack(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -161,8 +156,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canRangedWeaponAttack(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -185,8 +179,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -208,8 +201,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -231,8 +223,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -254,8 +245,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -277,8 +267,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -300,8 +289,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -323,8 +311,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canSee(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -346,8 +333,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canThrowAt(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -370,8 +356,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canThrowAt(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -394,8 +379,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canThrowAt(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -418,8 +402,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -438,8 +421,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -458,8 +440,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -478,8 +459,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -498,8 +478,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -518,8 +497,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the boolean canUseBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -538,8 +516,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the String getName(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -559,8 +536,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the String getName(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -580,8 +556,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -600,8 +575,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -620,8 +594,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -640,8 +613,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -660,8 +632,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -680,8 +651,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -700,8 +670,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Item getWeaponToThrow() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -720,8 +689,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void hunt(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -742,8 +710,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -765,8 +732,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void onEnter(int,int,int,Tile) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -788,8 +754,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void onGainLevel() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -807,8 +772,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void onNotify(String) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -827,8 +791,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -846,8 +809,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the Tile rememberedTile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -869,8 +831,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void setName(Item,String) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -890,8 +851,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -909,8 +869,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -928,8 +887,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -947,8 +905,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -966,8 +923,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -985,8 +941,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1004,8 +959,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1023,8 +977,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1042,8 +995,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1061,8 +1013,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1080,8 +1031,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1099,8 +1049,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1118,8 +1067,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1137,8 +1085,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1156,8 +1103,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1175,8 +1121,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void useBetterEquipment() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1194,8 +1139,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void wander() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1213,8 +1157,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void wander() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1232,8 +1175,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void wander() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test
@@ -1251,8 +1193,7 @@ public class CreatureAiTest {
 	/**
 	 * Run the void wander() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:29 AM
 	 */
 	@Test

@@ -5,19 +5,20 @@ import ui.Screen;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>EatScreenTest</code> contains tests for the class <code>{@link EatScreen}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:30 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:30 AM
  */
 public class EatScreenTest {
+	
 	/**
 	 * Run the EatScreen(Creature) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -36,8 +37,7 @@ public class EatScreenTest {
 	/**
 	 * Run the String getVerb() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -56,8 +56,7 @@ public class EatScreenTest {
 	/**
 	 * Run the boolean isAcceptable(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -77,8 +76,7 @@ public class EatScreenTest {
 	/**
 	 * Run the boolean isAcceptable(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -98,8 +96,7 @@ public class EatScreenTest {
 	/**
 	 * Run the Screen use(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test

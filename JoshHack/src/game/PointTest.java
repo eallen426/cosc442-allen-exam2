@@ -4,19 +4,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>PointTest</code> contains tests for the class <code>{@link Point}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:30 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:30 AM
  */
 public class PointTest {
+	
 	/**
 	 * Run the Point(int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -35,8 +36,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -54,8 +54,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -73,8 +72,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -92,8 +90,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -111,8 +108,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -130,8 +126,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -149,8 +144,7 @@ public class PointTest {
 	/**
 	 * Run the boolean equals(Object) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -168,8 +162,7 @@ public class PointTest {
 	/**
 	 * Run the int hashCode() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -186,8 +179,7 @@ public class PointTest {
 	/**
 	 * Run the List<Point> neighbors8() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -205,8 +197,7 @@ public class PointTest {
 	/**
 	 * Run the List<Point> neighbors8() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -224,8 +215,7 @@ public class PointTest {
 	/**
 	 * Run the List<Point> neighbors8() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -243,8 +233,7 @@ public class PointTest {
 	/**
 	 * Run the List<Point> neighbors8() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test
@@ -262,8 +251,7 @@ public class PointTest {
 	/**
 	 * Run the List<Point> neighbors8() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:30 AM
 	 */
 	@Test

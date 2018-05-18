@@ -4,19 +4,20 @@ import java.awt.Color;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>WorldTest</code> contains tests for the class <code>{@link World}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:31 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class WorldTest {
+	
 	/**
 	 * Run the World(Tile[][][]) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -35,8 +36,7 @@ public class WorldTest {
 	/**
 	 * Run the void add(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -56,8 +56,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Creature,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -81,8 +80,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Creature,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -106,8 +104,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Creature,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -131,8 +128,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Item,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -153,8 +149,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Item,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -175,8 +170,7 @@ public class WorldTest {
 	/**
 	 * Run the void addAtEmptyLocation(Item,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -197,8 +191,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -222,8 +215,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -247,8 +239,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -272,8 +263,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -297,8 +287,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -322,8 +311,7 @@ public class WorldTest {
 	/**
 	 * Run the boolean addAtEmptySpace(Item,int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -347,8 +335,7 @@ public class WorldTest {
 	/**
 	 * Run the Color color(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -371,8 +358,7 @@ public class WorldTest {
 	/**
 	 * Run the Color color(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -395,8 +381,7 @@ public class WorldTest {
 	/**
 	 * Run the Color color(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -419,8 +404,7 @@ public class WorldTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -443,8 +427,7 @@ public class WorldTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -467,8 +450,7 @@ public class WorldTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -491,8 +473,7 @@ public class WorldTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -515,8 +496,7 @@ public class WorldTest {
 	/**
 	 * Run the Creature creature(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -539,8 +519,7 @@ public class WorldTest {
 	/**
 	 * Run the int depth() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -560,8 +539,7 @@ public class WorldTest {
 	/**
 	 * Run the void dig(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -583,8 +561,7 @@ public class WorldTest {
 	/**
 	 * Run the void dig(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -606,8 +583,7 @@ public class WorldTest {
 	/**
 	 * Run the char glyph(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -630,8 +606,7 @@ public class WorldTest {
 	/**
 	 * Run the char glyph(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -654,8 +629,7 @@ public class WorldTest {
 	/**
 	 * Run the char glyph(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -678,8 +652,7 @@ public class WorldTest {
 	/**
 	 * Run the int height() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -699,8 +672,7 @@ public class WorldTest {
 	/**
 	 * Run the Item item(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -723,8 +695,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -744,8 +715,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -765,8 +735,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -786,8 +755,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -807,8 +775,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -828,8 +795,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(Item) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -849,8 +815,7 @@ public class WorldTest {
 	/**
 	 * Run the void remove(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -872,8 +837,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -896,8 +860,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -920,8 +883,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -944,8 +906,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -968,8 +929,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -992,8 +952,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -1016,8 +975,7 @@ public class WorldTest {
 	/**
 	 * Run the Tile tile(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -1040,8 +998,7 @@ public class WorldTest {
 	/**
 	 * Run the void update() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -1060,8 +1017,7 @@ public class WorldTest {
 	/**
 	 * Run the void update() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -1080,8 +1036,7 @@ public class WorldTest {
 	/**
 	 * Run the int width() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test

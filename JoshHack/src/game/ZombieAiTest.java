@@ -4,19 +4,20 @@ import java.awt.Color;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>ZombieAiTest</code> contains tests for the class <code>{@link ZombieAi}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:31 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class ZombieAiTest {
+	
 	/**
 	 * Run the ZombieAi(Creature,Creature) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -36,8 +37,7 @@ public class ZombieAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -56,8 +56,7 @@ public class ZombieAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -76,8 +75,7 @@ public class ZombieAiTest {
 	/**
 	 * Run the void onUpdate() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test

@@ -3,12 +3,13 @@ package game;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>LevelUpOptionTest</code> contains tests for the class <code>{@link LevelUpOption}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:30 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:30 AM
  */
 public class LevelUpOptionTest {
 	/**

@@ -8,14 +8,25 @@ import asciiPanel.AsciiPanel;
 import ui.Screen;
 import ui.StartScreen;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class AppletMain.
+ */
 public class AppletMain extends Applet implements KeyListener {
-	private static final long serialVersionUID = 2560255315130084198L;
 	
+	/** The Constant serialVersionUID. */
+	private static final long serialVersionUID = 0x2387DAA4F0A26B66L;
+	
+	/** The terminal. */
 	private AsciiPanel terminal;
+	
+	/** The screen. */
 	private Screen screen;
 	
+	/**
+	 * Instantiates a new applet main.
+	 */
 	public AppletMain(){
-		super();
 		terminal = new AsciiPanel();
 		add(terminal);
 		screen = new StartScreen();
@@ -23,12 +34,18 @@ public class AppletMain extends Applet implements KeyListener {
 		repaint();
 	}
 	
+	/* (non-Javadoc)
+	 * @see java.applet.Applet#init()
+	 */
 	@Override
 	public void init(){
 		super.init();
 		this.setSize(terminal.getWidth() + 20, terminal.getHeight() + 20);
 	}
 
+	/* (non-Javadoc)
+	 * @see java.awt.Component#repaint()
+	 */
 	@Override
 	public void repaint(){
 		terminal.clear();
@@ -36,15 +53,24 @@ public class AppletMain extends Applet implements KeyListener {
 		super.repaint();
 	}
 
+	/* (non-Javadoc)
+	 * @see java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent)
+	 */
 	@Override
 	public void keyPressed(KeyEvent e) {
 		screen = screen.respondToUserInput(e);
 		repaint();
 	}
 
+	/* (non-Javadoc)
+	 * @see java.awt.event.KeyListener#keyReleased(java.awt.event.KeyEvent)
+	 */
 	@Override
 	public void keyReleased(KeyEvent e) { }
 
+	/* (non-Javadoc)
+	 * @see java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent)
+	 */
 	@Override
 	public void keyTyped(KeyEvent e) { }
 }

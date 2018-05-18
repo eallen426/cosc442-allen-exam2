@@ -6,19 +6,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>StuffFactoryTest</code> contains tests for the class <code>{@link StuffFactory}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:31 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class StuffFactoryTest {
+	
 	/**
 	 * Run the StuffFactory(World) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -37,8 +38,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Creature newBat(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -58,8 +58,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newBlueMagesSpellbook(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -79,8 +78,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newBow(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -100,8 +98,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newBread(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -121,8 +118,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newDagger(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -142,8 +138,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newEdibleWeapon(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -163,8 +158,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newFruit(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -184,8 +178,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Creature newFungus(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -205,8 +198,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Creature newGoblin(int,Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -227,8 +219,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newHeavyArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -248,8 +239,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newLightArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -269,8 +259,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newMediumArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -290,8 +279,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Creature newPlayer(List<String>,FieldOfView) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -312,8 +300,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfArcher(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -333,8 +320,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfExperience(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -354,8 +340,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfHealth(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -375,8 +360,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfMana(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -396,8 +380,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfPoison(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -417,8 +400,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfSlowHealth(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -438,8 +420,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newPotionOfWarrior(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -459,8 +440,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newRock(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -480,8 +460,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newStaff(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -501,8 +480,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newSword(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -522,8 +500,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newVictoryItem(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -543,8 +520,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item newWhiteMagesSpellbook(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -564,8 +540,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Creature newZombie(int,Creature) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -586,8 +561,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -607,8 +581,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -628,8 +601,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomArmor(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -649,8 +621,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -670,8 +641,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -691,8 +661,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -712,8 +681,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -733,8 +701,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -754,8 +721,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -775,8 +741,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -796,8 +761,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -817,8 +781,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomPotion(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -838,8 +801,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomSpellBook(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -859,8 +821,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomSpellBook(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -880,8 +841,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomWeapon(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -901,8 +861,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomWeapon(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -922,8 +881,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomWeapon(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -943,8 +901,7 @@ public class StuffFactoryTest {
 	/**
 	 * Run the Item randomWeapon(int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test

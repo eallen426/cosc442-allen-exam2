@@ -4,19 +4,20 @@ import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
 
+// TODO: Auto-generated Javadoc
 /**
  * The class <code>WorldBuilderTest</code> contains tests for the class <code>{@link WorldBuilder}</code>.
  *
- * @generatedBy CodePro at 5/18/18 1:31 AM
  * @author user
  * @version $Revision: 1.0 $
+ * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class WorldBuilderTest {
+	
 	/**
 	 * Run the WorldBuilder(int,int,int) constructor test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -35,8 +36,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the World build() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -56,8 +56,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the WorldBuilder connectRegions() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -74,8 +73,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the WorldBuilder connectRegions() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -92,8 +90,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -116,8 +113,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -140,8 +136,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -164,8 +159,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -188,8 +182,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -212,8 +205,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -234,8 +226,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the List<Point> findRegionOverlaps(int,int,int) method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
@@ -256,8 +247,7 @@ public class WorldBuilderTest {
 	/**
 	 * Run the WorldBuilder makeCaves() method test.
 	 *
-	 * @throws Exception
-	 *
+	 * @throws Exception the exception
 	 * @generatedBy CodePro at 5/18/18 1:31 AM
 	 */
 	@Test
