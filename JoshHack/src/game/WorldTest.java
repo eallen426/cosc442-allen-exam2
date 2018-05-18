@@ -432,7 +432,7 @@ public class WorldTest {
 		int y = 1;
 		int z = 1;
 
-		Creature result = fixture.creature(x, y, z);
+		Effects result = fixture.creature(x, y, z);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -456,7 +456,7 @@ public class WorldTest {
 		int y = 1;
 		int z = 1;
 
-		Creature result = fixture.creature(x, y, z);
+		Effects result = fixture.creature(x, y, z);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -480,7 +480,7 @@ public class WorldTest {
 		int y = 1;
 		int z = 1;
 
-		Creature result = fixture.creature(x, y, z);
+		Effects result = fixture.creature(x, y, z);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -504,7 +504,7 @@ public class WorldTest {
 		int y = 1;
 		int z = 1;
 
-		Creature result = fixture.creature(x, y, z);
+		Effects result = fixture.creature(x, y, z);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -528,7 +528,7 @@ public class WorldTest {
 		int y = 1;
 		int z = 1;
 
-		Creature result = fixture.creature(x, y, z);
+		Effects result = fixture.creature(x, y, z);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -732,7 +732,7 @@ public class WorldTest {
 		throws Exception {
 		World fixture = new World(new Tile[][][] {});
 		fixture.add(new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1));
-		Creature other = new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1);
+		Effects other = new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1);
 
 		fixture.remove(other);
 

@@ -93,7 +93,7 @@ public class World {
 		}
 	}
 
-	public void remove(Creature other) {
+	public void remove(Effects other) {
 		creatures.remove(other);
 	}
 	

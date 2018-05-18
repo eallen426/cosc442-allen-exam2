@@ -24,7 +24,7 @@ public class CreatureAiTest {
 		throws Exception {
 		Creature creature = new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1);
 
-		CreatureAi result = new CreatureAi(creature);
+		ItemNames result = new CreatureAi(creature);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:

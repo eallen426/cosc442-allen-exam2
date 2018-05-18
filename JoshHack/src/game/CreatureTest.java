@@ -31,7 +31,7 @@ public class CreatureTest {
 		int attack = 1;
 		int defense = 1;
 
-		Creature result = new Creature(world, glyph, color, name, maxHp, attack, defense);
+		Effects result = new Creature(world, glyph, color, name, maxHp, attack, defense);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -352,7 +352,7 @@ public class CreatureTest {
 		int wy = 1;
 		int wz = 1;
 
-		Creature result = fixture.creature(wx, wy, wz);
+		Effects result = fixture.creature(wx, wy, wz);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -380,7 +380,7 @@ public class CreatureTest {
 		int wy = 1;
 		int wz = 1;
 
-		Creature result = fixture.creature(wx, wy, wz);
+		Effects result = fixture.creature(wx, wy, wz);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:

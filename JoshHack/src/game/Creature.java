@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Creature {
+public class Creature extends Effects {
 	private World world;
 	
 	public int x;
@@ -88,7 +88,6 @@ public class Creature {
 	private int regenHpPer1000;
 	public void modifyRegenHpPer1000(int amount) { regenHpPer1000 += amount; }
 	
-	private List<Effect> effects;
 	public List<Effect> effects(){ return effects; }
 	
 	private int maxMana;

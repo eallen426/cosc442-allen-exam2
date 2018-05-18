@@ -2,12 +2,9 @@ package game;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
-public class CreatureAi {
+public class CreatureAi extends ItemNames {
 	protected Creature creature;
-	private Map<String, String> itemNames;
-	
 	public CreatureAi(Creature creature){
 		this.creature = creature;
 		this.creature.setCreatureAi(this);

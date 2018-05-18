@@ -47,7 +47,7 @@ public class StuffFactoryTest {
 		StuffFactory fixture = new StuffFactory(new World(new Tile[][][] {}));
 		int depth = 1;
 
-		Creature result = fixture.newBat(depth);
+		Effects result = fixture.newBat(depth);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -194,7 +194,7 @@ public class StuffFactoryTest {
 		StuffFactory fixture = new StuffFactory(new World(new Tile[][][] {}));
 		int depth = 1;
 
-		Creature result = fixture.newFungus(depth);
+		Effects result = fixture.newFungus(depth);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -216,7 +216,7 @@ public class StuffFactoryTest {
 		int depth = 1;
 		Creature player = new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1);
 
-		Creature result = fixture.newGoblin(depth, player);
+		Effects result = fixture.newGoblin(depth, player);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -301,7 +301,7 @@ public class StuffFactoryTest {
 		List<String> messages = new LinkedList();
 		FieldOfView fov = new FieldOfView(new World(new Tile[][][] {}));
 
-		Creature result = fixture.newPlayer(messages, fov);
+		Effects result = fixture.newPlayer(messages, fov);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:
@@ -575,7 +575,7 @@ public class StuffFactoryTest {
 		int depth = 1;
 		Creature player = new Creature(new World(new Tile[][][] {}), '', new Color(1), "", 1, 1, 1);
 
-		Creature result = fixture.newZombie(depth, player);
+		Effects result = fixture.newZombie(depth, player);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:

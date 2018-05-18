@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 
-public class PathFinder {
+public class PathFinder extends Parents {
     private ArrayList<Point> open;
     private ArrayList<Point> closed;
-    private HashMap<Point, Point> parents;
-	private HashMap<Point,Integer> totalCost;
+    private HashMap<Point,Integer> totalCost;
     
     public PathFinder() {
     	this.open = new ArrayList<Point>();
