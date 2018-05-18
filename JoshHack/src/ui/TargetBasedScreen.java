@@ -24,11 +24,9 @@ public abstract class TargetBasedScreen implements Screen {
 
 	@Override
 	public void displayOutput(AsciiPanel terminal) {
-		for (Point p : new Line(sx, sy, sx + x, sy + y)){
-			if (p.x < 0 || p.x >= 80 || p.y < 0 || p.y >= 24)
-				continue;
-			
-			terminal.write('*', p.x, p.y, AsciiPanel.brightMagenta);
+		for (Point p : new Line(sx, sy, x + sx, y + sy)){
+			if (p.x >= 0 && p.x < 80 && p.y >= 0 && p.y < 24)
+				terminal.write('*', p.x, p.y, AsciiPanel.brightMagenta);
 		}
 		
 		terminal.clear(' ', 0, 23, 80, 1);

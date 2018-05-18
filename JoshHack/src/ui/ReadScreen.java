@@ -20,8 +20,8 @@ public class ReadScreen extends InventoryBasedScreen {
 	}
 
 	@Override
-	protected boolean isAcceptable(Item item) {
-		return !item.writtenSpells().isEmpty();
+	protected boolean isAcceptable(Item i) {
+		return !i.writtenSpells().isEmpty();
 	}
 
 	@Override

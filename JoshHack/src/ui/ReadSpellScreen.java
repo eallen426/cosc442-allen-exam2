@@ -30,7 +30,7 @@ public class ReadSpellScreen implements Screen {
 		int y = 23 - lines.size();
 		int x = 4;
 
-		if (lines.size() > 0)
+		if (!lines.isEmpty())
 			terminal.clear(' ', x, y, 20, lines.size());
 		
 		for (String line : lines){
@@ -49,15 +49,13 @@ public class ReadSpellScreen implements Screen {
 		for (int i = 0; i < item.writtenSpells().size(); i++){
 			Spell spell = item.writtenSpells().get(i);
 			
-			String line = letters.charAt(i) + " - " + spell.name() + " (" + spell.manaCost() + " mana)";
-			
-			lines.add(line);
+			lines.add(letters.charAt(i) + " - " + spell.name() + " (" + spell.manaCost() + " mana)");
 		}
 		return lines;
 	}
 
-	public Screen respondToUserInput(KeyEvent key) {
-		char c = key.getKeyChar();
+	public Screen respondToUserInput(KeyEvent e) {
+		char c = e.getKeyChar();
 
 		Item[] items = player.inventory().getItems();
 		
@@ -65,18 +63,18 @@ public class ReadSpellScreen implements Screen {
 				&& items.length > letters.indexOf(c)
 				&& items[letters.indexOf(c)] != null) {
 			return use(item.writtenSpells().get(letters.indexOf(c)));
-		} else if (key.getKeyCode() == KeyEvent.VK_ESCAPE) {
+		} else if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
 			return null;
 		} else {
 			return this;
 		}
 	}
 
-	protected Screen use(Spell spell){
-		if (spell.requiresTarget())
-			return new CastSpellScreen(player, "", sx, sy, spell);
+	protected Screen use(Spell s){
+		if (s.requiresTarget())
+			return new CastSpellScreen(player, "", sx, sy, s);
 		
-		player.castSpell(spell, player.x, player.y);
+		player.castSpell(s, player.x, player.y);
 		return null;
 	}
 }

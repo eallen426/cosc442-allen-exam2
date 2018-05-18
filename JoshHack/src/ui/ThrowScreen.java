@@ -19,12 +19,12 @@ public class ThrowScreen extends InventoryBasedScreen {
 	}
 
 	@Override
-	protected boolean isAcceptable(Item item) {
+	protected boolean isAcceptable(Item i) {
 		return true;
 	}
 
 	@Override
-	protected Screen use(Item item) {
-		return new ThrowAtScreen(player, sx, sy, item);
+	protected Screen use(Item i) {
+		return new ThrowAtScreen(player, sx, sy, i);
 	}
 }

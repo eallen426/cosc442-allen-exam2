@@ -12,8 +12,8 @@ public abstract class InventoryBasedScreen implements Screen {
 	private String letters;
 	
 	protected abstract String getVerb();
-	protected abstract boolean isAcceptable(Item item);
-	protected abstract Screen use(Item item);
+	protected abstract boolean isAcceptable(Item i);
+	protected abstract Screen use(Item i);
 	
 	public InventoryBasedScreen(Creature player){
 		this.player = player;
@@ -43,7 +43,7 @@ public abstract class InventoryBasedScreen implements Screen {
 		ArrayList<String> lines = new ArrayList<String>();
 		Item[] inventory = player.inventory().getItems();
 		
-		for (int i = 0; i < inventory.length; i++){
+		for (int i = 0; i < inventory.length; ++i){
 			Item item = inventory[i];
 			
 			if (item == null || !isAcceptable(item))
@@ -59,8 +59,8 @@ public abstract class InventoryBasedScreen implements Screen {
 		return lines;
 	}
 
-	public Screen respondToUserInput(KeyEvent key) {
-		char c = key.getKeyChar();
+	public Screen respondToUserInput(KeyEvent e) {
+		char c = e.getKeyChar();
 
 		Item[] items = player.inventory().getItems();
 		
@@ -69,7 +69,7 @@ public abstract class InventoryBasedScreen implements Screen {
 				&& items[letters.indexOf(c)] != null
 				&& isAcceptable(items[letters.indexOf(c)])) {
 			return use(items[letters.indexOf(c)]);
-		} else if (key.getKeyCode() == KeyEvent.VK_ESCAPE) {
+		} else if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
 			return null;
 		} else {
 			return this;

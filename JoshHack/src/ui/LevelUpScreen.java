@@ -33,15 +33,15 @@ public class LevelUpScreen implements Screen {
 	}
 
 	@Override
-	public Screen respondToUserInput(KeyEvent key) {
+	public Screen respondToUserInput(KeyEvent e) {
 		List<String> options = controller.getLevelUpOptions();
 		String chars = "";
 		
-		for (int i = 0; i < options.size(); i++){
-			chars = chars + Integer.toString(i+1);
+		for (int i = 0; i < options.size(); ++i){
+			chars += Integer.toString(i + 1);
 		}
 		
-		int i = chars.indexOf(key.getKeyChar());
+		int i = chars.indexOf(e.getKeyChar());
 		
 		if (i < 0)
 			return this;

@@ -15,13 +15,13 @@ public class QuaffScreen extends InventoryBasedScreen {
 	}
 
 	@Override
-	protected boolean isAcceptable(Item item) {
-		return item.quaffEffect() != null;
+	protected boolean isAcceptable(Item i) {
+		return i.quaffEffect() != null;
 	}
 
 	@Override
-	protected Screen use(Item item) {
-		player.quaff(item);
+	protected Screen use(Item i) {
+		player.quaff(i);
 		return null;
 	}
 

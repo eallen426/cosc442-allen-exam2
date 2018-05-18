@@ -20,7 +20,7 @@ public class LoseScreen implements Screen {
 	}
 
 	@Override
-	public Screen respondToUserInput(KeyEvent key) {
-		return key.getKeyCode() == KeyEvent.VK_ENTER ? new PlayScreen() : this;
+	public Screen respondToUserInput(KeyEvent e) {
+		return e.getKeyCode() != KeyEvent.VK_ENTER ? this : new PlayScreen();
 	}
 }

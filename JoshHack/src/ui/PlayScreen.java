@@ -36,42 +36,42 @@ public class PlayScreen implements Screen {
 		createItems(factory);
 	}
 
-	private void createCreatures(StuffFactory factory){
-		player = factory.newPlayer(messages, fov);
+	private void createCreatures(StuffFactory f){
+		player = f.newPlayer(messages, fov);
 		
 		for (int z = 0; z < world.depth(); z++){
 			for (int i = 0; i < 4; i++){
-				factory.newFungus(z);
+				f.newFungus(z);
 			}
 			for (int i = 0; i < 10; i++){
-				factory.newBat(z);
+				f.newBat(z);
 			}
 			for (int i = 0; i < z * 2 + 1; i++){
-				factory.newZombie(z, player);
-				factory.newGoblin(z, player);
+				f.newZombie(z, player);
+				f.newGoblin(z, player);
 			}
 		}
 	}
 
-	private void createItems(StuffFactory factory) {
+	private void createItems(StuffFactory f) {
 		for (int z = 0; z < world.depth(); z++){
 			for (int i = 0; i < world.width() * world.height() / 50; i++){
-				factory.newRock(z);
+				f.newRock(z);
 			}
 
-			factory.newFruit(z);
-			factory.newEdibleWeapon(z);
-			factory.newBread(z);
-			factory.randomArmor(z);
-			factory.randomWeapon(z);
-			factory.randomWeapon(z);
+			f.newFruit(z);
+			f.newEdibleWeapon(z);
+			f.newBread(z);
+			f.randomArmor(z);
+			f.randomWeapon(z);
+			f.randomWeapon(z);
 			
 			for (int i = 0; i < z + 1; i++){
-				factory.randomPotion(z);
-				factory.randomSpellBook(z);
+				f.randomPotion(z);
+				f.randomSpellBook(z);
 			}
 		}
-		factory.newVictoryItem(world.depth() - 1);
+		f.newVictoryItem(world.depth() - 1);
 	}
 	
 	private void createWorld(){
@@ -86,14 +86,11 @@ public class PlayScreen implements Screen {
 	
 	@Override
 	public void displayOutput(AsciiPanel terminal) {
-		int left = getScrollX();
-		int top = getScrollY(); 
-		
-		displayTiles(terminal, left, top);
+		displayTiles(terminal, getScrollX(), getScrollY());
 		displayMessages(terminal, messages);
 		
-		String stats = String.format(" %3d/%3d hp   %d/%d mana   %8s", player.hp(), player.maxHp(), player.mana(), player.maxMana(), hunger());
-		terminal.write(stats, 1, 23);
+		terminal.write(String.format(" %3d/%3d hp   %d/%d mana   %8s", player.hp(), player.maxHp(), player.mana(), player.maxMana(),
+				hunger()), 1, 23);
 		
 		if (subscreen != null)
 			subscreen.displayOutput(terminal);

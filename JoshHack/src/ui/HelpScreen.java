@@ -28,7 +28,7 @@ public class HelpScreen implements Screen {
 	}
 
 	@Override
-	public Screen respondToUserInput(KeyEvent key) {
+	public Screen respondToUserInput(KeyEvent e) {
 		return null;
 	}
 }
