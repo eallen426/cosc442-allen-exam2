@@ -15,14 +15,14 @@ public class ExamineScreen extends InventoryBasedScreen {
 	}
 
 	@Override
-	protected boolean isAcceptable(Item item) {
+	protected boolean isAcceptable(Item i) {
 		return true;
 	}
 
 	@Override
-	protected Screen use(Item item) {
-		String article = "aeiou".contains(player.nameOf(item).subSequence(0, 1)) ? "an " : "a ";
-		player.notify("It's " + article + player.nameOf(item) + "." + item.details());
+	protected Screen use(Item i) {
+		String article = "aeiou".contains(player.nameOf(i).subSequence(0, 1)) ? "an " : "a ";
+		player.notify("It's " + article + player.nameOf(i) + "." + i.details());
 		return null;
 	}
 }

@@ -37,7 +37,7 @@ public class FieldOfView {
 				if (x*x + y*y > r*r)
 					continue;
 				
-				if (wx + x < 0 || wx + x >= world.width() || wy + y < 0 || wy + y >= world.height())
+				if (x + wx < 0 || x + wx >= world.width() || wy + y < 0 || wy + y >= world.height())
 					continue;
 				
 				for (Point p : new Line(wx, wy, wx + x, wy + y)){

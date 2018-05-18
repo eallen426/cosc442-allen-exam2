@@ -14,7 +14,7 @@ public class Effect {
 	}
 	
 	public void update(Creature creature){
-		duration--;
+		--duration;
 	}
 	
 	public void start(Creature creature){

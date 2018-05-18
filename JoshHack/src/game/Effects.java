@@ -7,7 +7,6 @@ public class Effects {
 	protected List<Effect> effects;
 
 	public Effects() {
-		super();
 	}
 
 }

@@ -75,8 +75,8 @@ public class World {
 		int y;
 		
 		do {
-			x = (int)(Math.random() * width);
-			y = (int)(Math.random() * height);
+			x = (int)(width * Math.random());
+			y = (int)(height * Math.random());
 		} 
 		while (!tile(x,y,z).isGround() || creature(x,y,z) != null);
 		
@@ -98,9 +98,9 @@ public class World {
 	}
 	
 	public void remove(Item item) {
-		for (int x = 0; x < width; x++){
-			for (int y = 0; y < height; y++){
-				for (int z = 0; z < depth; z++){
+		for (int x = 0; x < width; ++x){
+			for (int y = 0; y < height; ++y){
+				for (int z = 0; z < depth; ++z){
 					if (items[x][y][z] == item) {
 						items[x][y][z] = null;
 						return;
@@ -119,8 +119,8 @@ public class World {
 		int y;
 		
 		do {
-			x = (int)(Math.random() * width);
-			y = (int)(Math.random() * height);
+			x = (int)(width * Math.random());
+			y = (int)(height * Math.random());
 		} 
 		while (!tile(x,y,depth).isGround() || item(x,y,depth) != null);
 		

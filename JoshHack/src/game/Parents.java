@@ -7,7 +7,6 @@ public class Parents {
 	protected HashMap<Point, Point> parents;
 
 	public Parents() {
-		super();
 	}
 
 }

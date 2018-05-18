@@ -32,7 +32,7 @@ public class Inventory {
 		int size = 0;
 		for (int i = 0; i < items.length; i++){
 			if (items[i] != null)
-				size++;
+				++size;
 		}
 		return size == items.length;
 	}

@@ -45,8 +45,8 @@ public class LevelUpController {
 				}
 			} };
 
-	public void autoLevelUp(Creature creature) {
-		options[(int) (Math.random() * options.length)].invoke(creature);
+	public void autoLevelUp(Creature c) {
+		options[(int) (Math.random() * options.length)].invoke(c);
 	}
 
 	public List<String> getLevelUpOptions() {

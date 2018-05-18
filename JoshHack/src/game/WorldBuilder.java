@@ -26,7 +26,7 @@ public class WorldBuilder {
 	}
 
 	private WorldBuilder randomizeTiles() {
-		for (int x = 0; x < width; x++) {
+		for (int x = 0; x < width; ++x) {
 			for (int y = 0; y < height; y++) {
 				for (int z = 0; z < depth; z++) {
 					tiles[x][y][z] = Math.random() < 0.5 ? Tile.FLOOR : Tile.WALL;
@@ -38,24 +38,24 @@ public class WorldBuilder {
 
 	private WorldBuilder smooth(int times) {
 		Tile[][][] tiles2 = new Tile[width][height][depth];
-		for (int time = 0; time < times; time++) {
+		for (int time = 0; time < times; ++time) {
 
-			for (int x = 0; x < width; x++) {
-				for (int y = 0; y < height; y++) {
-					for (int z = 0; z < depth; z++) {
+			for (int x = 0; x < width; ++x) {
+				for (int y = 0; y < height; ++y) {
+					for (int z = 0; z < depth; ++z) {
 						int floors = 0;
 						int rocks = 0;
 	
-						for (int ox = -1; ox < 2; ox++) {
-							for (int oy = -1; oy < 2; oy++) {
+						for (int ox = -1; ox < 2; ++ox) {
+							for (int oy = -1; oy < 2; ++oy) {
 								if (x + ox < 0 || x + ox >= width || y + oy < 0
 										|| y + oy >= height)
 									continue;
 	
-								if (tiles[x + ox][y + oy][z] == Tile.FLOOR)
-									floors++;
+								if (tiles[x + ox][y + oy][z] != Tile.FLOOR)
+									++rocks;
 								else
-									rocks++;
+									++floors;
 							}
 						}
 						tiles2[x][y][z] = floors >= rocks ? Tile.FLOOR : Tile.WALL;
@@ -70,13 +70,11 @@ public class WorldBuilder {
 	private WorldBuilder createRegions(){
 		regions = new int[width][height][depth];
 		
-		for (int z = 0; z < depth; z++){
-			for (int x = 0; x < width; x++){
-				for (int y = 0; y < height; y++){
+		for (int z = 0; z < depth; ++z){
+			for (int x = 0; x < width; ++x){
+				for (int y = 0; y < height; ++y){
 					if (tiles[x][y][z] != Tile.WALL && regions[x][y][z] == 0){
-						int size = fillRegion(nextRegion++, x, y, z);
-						
-						if (size < 25)
+						if (fillRegion(nextRegion++, x, y, z) < 25)
 							removeRegion(nextRegion - 1, z);
 					}
 				}
@@ -86,8 +84,8 @@ public class WorldBuilder {
 	}
 	
 	private void removeRegion(int region, int z){
-		for (int x = 0; x < width; x++){
-			for (int y = 0; y < height; y++){
+		for (int x = 0; x < width; ++x){
+			for (int y = 0; y < height; ++y){
 				if (regions[x][y][z] == region){
 					regions[x][y][z] = 0;
 					tiles[x][y][z] = Tile.WALL;
@@ -113,7 +111,7 @@ public class WorldBuilder {
 						|| tiles[neighbor.x][neighbor.y][neighbor.z] == Tile.WALL)
 					continue;
 
-				size++;
+				++size;
 				regions[neighbor.x][neighbor.y][neighbor.z] = region;
 				open.add(neighbor);
 			}
@@ -122,7 +120,7 @@ public class WorldBuilder {
 	}
 	
 	public WorldBuilder connectRegions(){
-		for (int z = 0; z < depth-1; z++){
+		for (int z = 0; z < depth-1; ++z){
 			connectRegionsDown(z);
 		}
 		return this;
@@ -131,9 +129,9 @@ public class WorldBuilder {
 	private void connectRegionsDown(int z){
 		List<Integer> connected = new ArrayList<Integer>();
 		
-		for (int x = 0; x < width; x++){
-			for (int y = 0; y < height; y++){
-				int r = regions[x][y][z] * 1000 + regions[x][y][z+1];
+		for (int x = 0; x < width; ++x){
+			for (int y = 0; y < height; ++y){
+				int r = regions[x][y][z + 1] + 1000 * regions[x][y][z];
 				if (tiles[x][y][z] == Tile.FLOOR
 						&& tiles[x][y][z+1] == Tile.FLOOR
 						&& !connected.contains(r)){
@@ -152,7 +150,7 @@ public class WorldBuilder {
 			Point p = candidates.remove(0);
 			tiles[p.x][p.y][z] = Tile.STAIRS_DOWN;
 			tiles[p.x][p.y][z+1] = Tile.STAIRS_UP;
-			stairs++;
+			++stairs;
 		}
 		while (candidates.size() / stairs > 250);
 	}
@@ -160,8 +158,8 @@ public class WorldBuilder {
 	public List<Point> findRegionOverlaps(int z, int r1, int r2) {
 		ArrayList<Point> candidates = new ArrayList<Point>();
 		
-		for (int x = 0; x < width; x++){
-			for (int y = 0; y < height; y++){
+		for (int x = 0; x < width; ++x){
+			for (int y = 0; y < height; ++y){
 				if (tiles[x][y][z] == Tile.FLOOR
 						&& tiles[x][y][z+1] == Tile.FLOOR
 						&& regions[x][y][z] == r1 
@@ -180,8 +178,8 @@ public class WorldBuilder {
 		int y = -1;
 		
 		do {
-			x = (int)(Math.random() * width);
-			y = (int)(Math.random() * height);
+			x = (int)(width * Math.random());
+			y = (int)(height * Math.random());
 		}
 		while (tiles[x][y][0] != Tile.FLOOR);
 		

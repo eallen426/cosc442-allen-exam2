@@ -10,12 +10,10 @@ public class ZombieAi extends CreatureAi {
 	}
 
 	public void onUpdate(){
-		if (Math.random() < 0.2)
-			return;
-		
-		if (creature.canSee(player.x, player.y, player.z))
-			hunt(player);
-		else
-			wander();
+		if (Math.random() >= 0.2)
+			if (!creature.canSee(player.x, player.y, player.z))
+				wander();
+			else
+				hunt(player);
 	}
 }

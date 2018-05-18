@@ -27,6 +27,6 @@ public class FungusAi extends CreatureAi {
 		child.x = x;
 		child.y = y;
 		child.z = creature.z;
-		spreadcount++;
+		++spreadcount;
 	}
 }

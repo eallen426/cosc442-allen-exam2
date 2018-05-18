@@ -69,17 +69,13 @@ public class PathFinder extends Parents {
 		return closest;
 	}
 
-	private void checkNeighbors(Creature creature, Point end, Point closest) {
+	private void checkNeighbors(Creature c, Point end, Point closest) {
 		for (Point neighbor : closest.neighbors8()) {
-		    if (closed.contains(neighbor)
-		    		|| !creature.canEnter(neighbor.x, neighbor.y, creature.z)
-		    		&& !neighbor.equals(end))
-		        continue;
-			
-		    if (open.contains(neighbor))
-				reParentNeighborIfNecessary(closest, neighbor);
-		    else
-		        reParentNeighbor(closest, neighbor);
+		    if (!closed.contains(neighbor) && (c.canEnter(neighbor.x, neighbor.y, c.z) || neighbor.equals(end)))
+				if (!open.contains(neighbor))
+					reParentNeighbor(closest, neighbor);
+				else
+					reParentNeighborIfNecessary(closest, neighbor);
 		}
 	}
 

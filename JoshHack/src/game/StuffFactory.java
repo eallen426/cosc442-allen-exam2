@@ -37,10 +37,10 @@ public class StuffFactory {
 		Collections.shuffle(potionAppearances);
 	}
 	
-	public Creature newPlayer(List<String> messages, FieldOfView fov){
+	public Creature newPlayer(List<String> messages, FieldOfView v){
 		Creature player = new Creature(world, '@', AsciiPanel.brightWhite, "player", 100, 20, 5);
 		world.addAtEmptyLocation(player, 0);
-		new PlayerAi(player, messages, fov);
+		new PlayerAi(player, messages, v);
 		return player;
 	}
 	
@@ -164,7 +164,7 @@ public class StuffFactory {
 	}
 	
 	public Item randomWeapon(int depth){
-		switch ((int)(Math.random() * 3)){
+		switch ((int)(3 * Math.random())){
 		case 0: return newDagger(depth);
 		case 1: return newSword(depth);
 		case 2: return newBow(depth);
@@ -173,7 +173,7 @@ public class StuffFactory {
 	}
 
 	public Item randomArmor(int depth){
-		switch ((int)(Math.random() * 3)){
+		switch ((int)(3 * Math.random())){
 		case 0: return newLightArmor(depth);
 		case 1: return newMediumArmor(depth);
 		default: return newHeavyArmor(depth);
@@ -405,27 +405,27 @@ public class StuffFactory {
 		});
 		
 		item.addWrittenSpell("summon bats", 11, new Effect(1){
-			public void start(Creature creature){
-				for (int ox = -1; ox < 2; ox++){
-					for (int oy = -1; oy < 2; oy++){
-						int nx = creature.x + ox;
-						int ny = creature.y + oy;
+			public void start(Creature c){
+				for (int ox = -1; ox < 2; ++ox){
+					for (int oy = -1; oy < 2; ++oy){
+						int nx = ox + c.x;
+						int ny = oy + c.y;
 						if (ox == 0 && oy == 0 
-								|| creature.creature(nx, ny, creature.z) != null)
+								|| c.creature(nx, ny, c.z) != null)
 							continue;
 						
 						Creature bat = newBat(0);
 						
-						if (!bat.canEnter(nx, ny, creature.z)){
+						if (!bat.canEnter(nx, ny, c.z)){
 							world.remove(bat);
 							continue;
 						}
 						
 						bat.x = nx;
 						bat.y = ny;
-						bat.z = creature.z;
+						bat.z = c.z;
 						
-						creature.summon(bat);
+						c.summon(bat);
 					}
 				}
 			}

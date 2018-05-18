@@ -23,15 +23,7 @@ public class LineTest {
 	@Test
 	public void testLine_1()
 		throws Exception {
-		int x0 = 1;
-		int y0 = 1;
-		int x1 = 1;
-		int y1 = 1;
-
-		Line result = new Line(x0, y0, x1, y1);
-
-		// add additional test code here
-		assertNotNull(result);
+		assertNotNull((new Line(1, 1, 1, 1)));
 	}
 
 	/**
