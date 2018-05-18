@@ -15,8 +15,7 @@ import static org.junit.Assert.*;
  * @generatedBy CodePro at 5/18/18 1:31 AM
  */
 public class StuffFactoryTest {
-	
-	/**
+		/**
 	 * Run the StuffFactory(World) constructor test.
 	 *
 	 * @throws Exception the exception
